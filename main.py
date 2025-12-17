@@ -9,11 +9,7 @@ import streamlit as st
 
 from src.load_model import *
 from src.price_data import YahooFinance
-<<<<<<< HEAD
-from mmd.evaluation import *
-=======
 from src.evaluation import *
->>>>>>> parent of fbf36a9 (added delta runs, cleaned repo)
 
 # Set matplotlib style
 plt.style.use('seaborn-v0_8-darkgrid')
